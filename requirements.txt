@@ -1,0 +1,6 @@
+cobra>=0.29
+notebook
+pandas
+numpy
+scipy
+plotly

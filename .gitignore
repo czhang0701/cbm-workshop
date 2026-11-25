@@ -1,0 +1,13 @@
+# never publish solutions or instructor material
+*instructor*
+*solution*
+*answer*
+*transcript*
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Office lock files
+~$*
