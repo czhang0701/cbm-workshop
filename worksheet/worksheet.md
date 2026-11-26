@@ -348,18 +348,32 @@ oxygen transfer).
 
 ## Report
 
-Write a short report (about 4 pages, figures included; code in an appendix), using your answers above.
+Write a short report of **about 4 pages** (figures and tables included; references and code appendix not counted),
+built from your answers on this sheet and the notebook outputs.
+
+**Include:** T1 carbon-source table (A1) · F1 phase plane with the line of optimality (B1) · F2 production envelope
+(C) · T2 growth-coupling table (C1) · F3 FVA ranges or sampling distributions (D) · T3 FBA vs MOMA table (E2) ·
+F4 dynamic FBA time courses (F1). Every figure needs a caption with the model, medium and constraints.
+
+**Answer, one section each:**
 
 1. **Constraints.** Using Parts A and B, explain how the medium (carbon source, oxygen) constrains the predicted
-   phenotype. Include your carbon-source table and the phase plane, and identify which nutrient limits growth in
-   each region.
+   phenotype. Which nutrient limits growth in each region, and how do the shadow prices show it?
 2. **Objective functions.** Using Part C, compare growth, ATP production and product secretion as objectives. When
-   is maximal growth a reasonable assumption, and when is it not?
-3. **Uncertainty.** Using Part D, discuss how well individual fluxes are determined by FBA. When would you report
-   pFBA, FVA ranges or sampled distributions?
-4. **Genetic perturbations.** Using Part E, discuss synthetic lethality (with examples explained from the network)
-   and the difference between FBA and MOMA predictions.
-5. **Dynamics.** Using Part F, explain what dynamic FBA adds to FBA, and its limitations.
+   is maximal growth a reasonable assumption, and when is it not? Why is growth coupling useful?
+3. **Uncertainty.** Using Part D, discuss how precisely FBA determines individual fluxes. When would you report an
+   FBA/pFBA value, an FVA range or a sampled distribution? What are loops, and why remove them?
+4. **Genetic perturbations.** Using Part E, explain two synthetic lethal pairs from the network, and the difference
+   between FBA and MOMA. Which would you trust for a fresh knockout, and which after adaptive evolution?
+5. **Dynamics.** Using Part F, explain what dynamic FBA adds to FBA, and its main limitations.
+6. **Reflection (short).** One limitation of constraint-based modelling this workshop made clear, and one kind of
+   data that could reduce it.
+
+**Structure:** introduction (~½ page) · results and discussion, one section per question · conclusion (3–5
+sentences) · references · appendix with the code you wrote.
+
+**Marking:** correct results 30% · biological interpretation 35% · critical view of the method 20% · clarity
+(captions, structure, length) 15%. A good answer gives the number **and** explains it from the network.
 
 ## Notes
 
