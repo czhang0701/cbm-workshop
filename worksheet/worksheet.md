@@ -11,7 +11,7 @@ Work through the notebook `CBM_workshop.ipynb` and fill in this sheet as you go.
 3. **Record** the numbers in the tables.
 4. **Explain** in the answer boxes: a number plus one or two sentences.
 
-Your report (end of the sheet) is built from these answers. Flux units are mmol/gDW/h; growth is per hour.
+Your short report (about 250 words, end of the sheet) summarises these answers. Flux units are mmol/gDW/h; growth is per hour.
 
 ---
 
@@ -346,34 +346,33 @@ oxygen transfer).
 
 ---
 
-## Report
+## Report (about 250 words in total)
 
-Write a short report of **about 4 pages** (figures and tables included; references and code appendix not counted),
-built from your answers on this sheet and the notebook outputs.
+Summarise what the workshop showed: one or two sentences per part, each with at least one number from your results.
+No figures needed.
 
-**Include:** T1 carbon-source table (A1) · F1 phase plane with the line of optimality (B1) · F2 production envelope
-(C) · T2 growth-coupling table (C1) · F3 FVA ranges or sampling distributions (D) · T3 FBA vs MOMA table (E2) ·
-F4 dynamic FBA time courses (F1). Every figure needs a caption with the model, medium and constraints.
+1. **Part A:** Which carbon sources supported growth without oxygen, and why not the others?
+2. **Part B:** Which nutrient limits growth on each side of the line of optimality, and when is acetate secreted?
+3. **Part C:** Is there a trade-off between growth and ethanol production? Which products are growth-coupled?
+4. **Part D:** How precisely does FBA determine individual fluxes (how many reactions can vary at the optimum)?
+5. **Part E:** Give one synthetic lethal partner of *pgi* and explain it, and say where FBA and MOMA disagree most.
+6. **Part F:** What does dynamic FBA show about acetate over time, and how does oxygen change it?
 
-**Answer, one section each:**
-
-1. **Constraints.** Using Parts A and B, explain how the medium (carbon source, oxygen) constrains the predicted
-   phenotype. Which nutrient limits growth in each region, and how do the shadow prices show it?
-2. **Objective functions.** Using Part C, compare growth, ATP production and product secretion as objectives. When
-   is maximal growth a reasonable assumption, and when is it not? Why is growth coupling useful?
-3. **Uncertainty.** Using Part D, discuss how precisely FBA determines individual fluxes. When would you report an
-   FBA/pFBA value, an FVA range or a sampled distribution? What are loops, and why remove them?
-4. **Genetic perturbations.** Using Part E, explain two synthetic lethal pairs from the network, and the difference
-   between FBA and MOMA. Which would you trust for a fresh knockout, and which after adaptive evolution?
-5. **Dynamics.** Using Part F, explain what dynamic FBA adds to FBA, and its main limitations.
-6. **Reflection (short).** One limitation of constraint-based modelling this workshop made clear, and one kind of
-   data that could reduce it.
-
-**Structure:** introduction (~½ page) · results and discussion, one section per question · conclusion (3–5
-sentences) · references · appendix with the code you wrote.
-
-**Marking:** correct results 30% · biological interpretation 35% · critical view of the method 20% · clarity
-(captions, structure, length) 15%. A good answer gives the number **and** explains it from the network.
+> &nbsp;
+>
+> &nbsp;
+>
+> &nbsp;
+>
+> &nbsp;
+>
+> &nbsp;
+>
+> &nbsp;
+>
+> &nbsp;
+>
+> &nbsp;
 
 ## Notes
 
